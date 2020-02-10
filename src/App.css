@@ -1,3 +1,15 @@
+body{
+	background-color: #C38D9E;
+}
+#butext{
+	transform: rotate(-90deg);
+	font-size: 1.5em;
+	white-space: nowrap;
+}
+#but{
+	background-color: #85DCB0;
+	align-items: center;
+}
 .App {
   text-align: center;
 }
@@ -6,11 +18,60 @@
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+#flip{
+  transform: rotate(180deg);
+}
+.App{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App *{
+  display: flex;
+  padding: 0.5em;
+  max-width: 100%;
+  justify-content:center;
+}
+.Friends{
+  display: flex;
+  flex-direction: row;
+}
+.Attitude{
+  display: flex;
+  flex-direction: row;
+}
+.Arts{
+  display: flex;
+  flex-direction: row;
+}
+.StuGov{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  background-color: #41B3A3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+  
+.imgs{
+  background-color: #E8A87C;
+  display: flex;
+  flex-wrap: wrap; 
+}
+img{
+ 	width: 30%;
+	min-width: 300px;
 }
 
 .App-header {
