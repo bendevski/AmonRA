@@ -70,7 +70,7 @@ body{
   flex-wrap: wrap; 
 }
 img{
- 	max-width: 40%;
+ 	width: 40%;
 	min-width: 300px;
 }
 
